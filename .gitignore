@@ -1,0 +1,28 @@
+# build
+target/
+out/
+build/
+dist/
+node_modules/
+
+# ide
+.idea/
+*.iml
+.vscode/
+*.classpath
+*.project
+*.factorypath
+.settings/
+
+# logs & local
+logs/
+*.log
+*.tmp
+.DS_Store
+
+# local config (keep examples)
+**/application-local.yml
+**/application-local.properties
+**/application-dev-local.yml
+.env
+.env.local
